@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import UserOne from '../assets/user-01.png';
 import ClickOutside from '../ui/ClickOutside';
 import { useLogout } from '../features/authentication/useLogout';
 
