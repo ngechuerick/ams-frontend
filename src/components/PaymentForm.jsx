@@ -1,5 +1,5 @@
 import { useForm } from 'react-hook-form';
-import { useConfirmPaid } from '../features/payments/useconfirmPaid';
+// import { useConfirmPaid } from '../features/payments/useconfirmPaid';
 import { usePayrent } from '../features/payments/usePayrent';
 import { useState } from 'react';
 import { monthNames } from '../utils/dateLocaleConverter';
@@ -7,7 +7,7 @@ import { monthNames } from '../utils/dateLocaleConverter';
 function PaymentForm({ curTenant }) {
   const { register, handleSubmit, reset } = useForm();
   const { payrent, isPending } = usePayrent();
-  const { confirmPay, isPending: pendingConfirm } = useConfirmPaid();
+  // const { confirmPay, isPending: pendingConfirm } = useConfirmPaid();
 
   const [hideForm, setHideForm] = useState(false);
 
