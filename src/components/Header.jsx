@@ -12,6 +12,7 @@ import { useUser } from '../features/authentication/useUser';
 import DropdownUser from './DropDownUser';
 
 
+
 function Header({ onToggleSideBar, isOpen }) {
   const { currentUser } = useUser();
 

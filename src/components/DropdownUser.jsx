@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import ClickOutside from '../ui/ClickOutside';
 import { useLogout } from '../features/authentication/useLogout';
 
-function DropdownUser({ currentUser }) {
+function DropDownUser({ currentUser }) {
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const { logout } = useLogout();
@@ -116,4 +116,4 @@ function DropdownUser({ currentUser }) {
   );
 }
 
-export default DropdownUser;
+export default DropDownUser;
